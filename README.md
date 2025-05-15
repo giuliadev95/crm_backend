@@ -43,3 +43,16 @@
     https://medium.com/@vihangamallawaarachchi.dev/setting-up-a-node-js-and-express-backend-with-typescript-a-comprehensive-guide-b15fad5c803c 
 2) Study and implement the user auth AWT:
     https://www.codegrind.it/corsi
+    
+    ## Mongo DB
+    > mongo DB commands:
+                        - use db.databse_name = create "database_name" if not existing
+                            ! after this command you won't find the db displayed in Compass CLI, cause it's still void.
+                        - db.database_name.find() = finds all collections {} , or if more [{}, {}, {}, ...]
+                        - db.database_name.find().pretty() = finds and displays in a prettify json way all collections
+                        - db.database_name.insertOnee({"nome": "Andrea"}) = inserts just one record in the database
+                        - db.utenti.insertMany([{"nome":"Edoardo", "cognome":"Rossi"}, {"nome":"Alberto","età":21}]) = 
+                            inserts many records in the database
+                         ! after this command you will find the db displayed in Compass CLI, cause it's been now populated
+                         with collections 
+                        
