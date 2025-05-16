@@ -20,6 +20,7 @@
     - typescript > npm install typescript --save-dev > ok
     - typescript environment for node.js and express: 
         npm install typescript @types/node @types/express ts-node --save-dev > ok
+    - eslint, typescript-eslint : this should 
     - nodemon > npm install --save-dev nodemon
     - jest
             npm install --save-dev jest ts-jest @types/jest

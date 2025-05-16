@@ -66,5 +66,7 @@
 
     /* Completeness */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  "include": ["src"], // which files to compile
+  "exclude": ["node_modules"], // which files to skip
 }
