@@ -1,7 +1,4 @@
-import mongoose from "mongoose";
-import { Schema } from 'mongoose';
-
-// Document interface that defines for TypeScript the collection's data types thought for MongoDB.
+/* Document interface that defines for TypeScript the collection's data types thought for MongoDB.
 interface User {
     name: string;
     surname: string;
@@ -10,8 +7,10 @@ interface User {
 
 
 
+import mongoose from 'mongoose';
+
 // Schema : configuration object for each individual
-const userSchema = new Schema<User> ({
+const userSchema = new mongoose.Schema<User>({
     name: {
         type: String,
         required: true
@@ -36,4 +35,4 @@ man.surname;
 man.email;
 
 
-    
+*/
